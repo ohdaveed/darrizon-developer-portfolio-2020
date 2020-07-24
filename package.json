@@ -42,6 +42,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-plugin-react": "^7.20.3",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
     "rimraf": "^2.6.3"

@@ -3,13 +3,11 @@ import { Link } from 'gatsby';
 
 import CapabilityList from './CapabilityList';
 
-const Capabilities = () =>
+const Capabilities = () => (
   <section id="two" className="wrapper style3 fade-up">
     <div className="inner">
       <h2>Tech Stacks</h2>
-      <p>
-       These are a few of my favorite things...
-      </p>
+      <p>These are a few of my favorite things...</p>
       <div className="features">
         <CapabilityList />
       </div>
@@ -22,5 +20,6 @@ const Capabilities = () =>
       </ul>
     </div>
   </section>
+);
 
 export default Capabilities;

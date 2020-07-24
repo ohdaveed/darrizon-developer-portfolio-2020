@@ -64,9 +64,11 @@ const CapabilityList = () => {
 
   return (
     <>
-      {capabilities.map((capability) => <Capability key={capability.heading} {...capability} />)}
+      {capabilities.map(capability => (
+        <Capability key={capability.heading} {...capability} />
+      ))}
     </>
-  )
-}
+  );
+};
 
 export default CapabilityList;

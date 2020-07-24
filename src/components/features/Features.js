@@ -22,7 +22,8 @@ const Features = () => {
       href: '/#',
       image: pic2,
       heading: '#2',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      description:
+        'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
       to: {
         href: '/generic',
         label: 'Learn more',
@@ -32,7 +33,8 @@ const Features = () => {
       href: '/#',
       image: pic3,
       heading: 'Ultricies aliquam',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      description:
+        'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
       to: {
         href: '/generic',
         label: 'Learn more',
@@ -44,9 +46,11 @@ const Features = () => {
 
   return (
     <section id="one" className="wrapper style2 spotlights">
-       {features.map(feature => <Feature key={feature.heading} {...feature} />)}
+      {features.map(feature => (
+        <Feature key={feature.heading} {...feature} />
+      ))}
     </section>
   );
-}
+};
 
 export default Features;
